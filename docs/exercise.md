@@ -24,4 +24,15 @@
 - ```mv unix/new/foo2 unix```
 - ```mv unix/foo2 unix/foo.old```
 ## Delete the file "foo.old".
-- 
+- ```rm -f unix/foo.old```
+## Remove the "new" subdirectory.
+- ```rm -r unix/new```
+## Create file "verylong.seq"   with some text insideCreate file "verylong.seq"   with some text inside
+- ```echo "Some text inside" > verylong.seq```
+## Dis play the file "verylong.seq" on the screen using "cat" , "more"  command.
+- ```cat verylong.seq```
+- ```more verylong.seq```
+## Walk upwards and downwards in the file using the "more" program.
+- ```more``` khá giống với cát nhưng khác ở chỗ là nó trình bày theo từng trang nên ta có sử dụng phím ```space``` để lướt từng trang một và sử dụng phím mũi tên lên xuống để di chuyển.
+## Search for the word "Length" using the "more" and the "less" program, compare the   results.
+- Để search bằng more ta bấm ```/key_word``` giống vi hay vim để search tương tự less cũng có thể sử dụng ```/``` hoặc ```?``` để search
